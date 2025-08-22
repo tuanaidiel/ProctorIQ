@@ -7,7 +7,7 @@ import { EnvironmentConfiguration } from "../app/models/environment-configuratio
 
 
 
-const serverUrl='https://localhost:7209/api';
+const serverUrl='';
 //const serverUrl='';
 
 
@@ -17,12 +17,12 @@ export const environment: EnvironmentConfiguration = {
   production: true,
   apiUrl: serverUrl,
   adb2cConfig: {
-    clientId: '588fe00e-c38a-429b-a2bb-911ca90643a7',
-    readScopeUrl: 'https://smartlearnbykarthik.onmicrosoft.com/smartcertify/dev/api/User.Read',
-    writeScopeUrl: 'https://smartlearnbykarthik.onmicrosoft.com/smartcertify/dev/api/User.Write',
+    clientId: '',
+    readScopeUrl: '',
+    writeScopeUrl: '',
     scopeUrls:[
-      'https://smartlearnbykarthik.onmicrosoft.com/smartcertify/dev/api/User.Read',
-      'https://smartlearnbykarthik.onmicrosoft.com/smartcertify/dev/api/User.Write'
+      '',
+      ''
     ],
     apiEndpointUrl: serverUrl
   },
