@@ -12,7 +12,7 @@ import { DataBindingsLatestComponent } from "../data-bindings-latest/data-bindin
 export class DataBindingsComponent {
 // Interpolation and Property Binding
 appName = 'SmartCertify';
-logoUrl = '';
+logoUrl = 'https://smartlearnbykarthik.azurewebsites.net/assets/android-chrome-512x512.png';
 appDescription = 'An amazing platform to test and certify your knowledge.';
 
 // Two-Way Binding

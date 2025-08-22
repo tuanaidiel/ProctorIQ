@@ -7,7 +7,7 @@ import { EnvironmentConfiguration } from "../app/models/environment-configuratio
 
 
 
-const serverUrl='';
+const serverUrl='https://smartcertify-api.azurewebsites.net/api';
 
 
 // The list of file replacements can be found in `angular.json`.
@@ -23,7 +23,7 @@ export const environment: EnvironmentConfiguration = {
       'https://smartlearnbykarthik.onmicrosoft.com/smartcertify/prod/api/User.Read',
       'https://smartlearnbykarthik.onmicrosoft.com/smartcertify/prod/api/User.Write'
     ],
-    apiEndpointUrl: ''
+    apiEndpointUrl: 'https://smartcertify-api.azurewebsites.net/api'
   },
   cacheTimeInMinutes: 30,
 };
