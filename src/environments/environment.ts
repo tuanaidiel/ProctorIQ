@@ -8,7 +8,7 @@ import { EnvironmentConfiguration } from "../app/models/environment-configuratio
 
 
 const serverUrl='https://localhost:7209/api';
-//const serverUrl='https://smartcertify-api.azurewebsites.net/api';
+//const serverUrl='';
 
 
 // The list of file replacements can be found in `angular.json`.

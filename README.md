@@ -88,7 +88,7 @@ In this video, learn how to install SQL Express, SQL Server Management Studio (S
 - 10:04:20 - Azure Key Vault + Managed Identity  
 - 10:33:35 - Managed Identity vs Service Principal  
 
-Demo App: https://smartcertify-web.azurewebsites.net/home
+Demo App: 
 ---
 
 ### **SQL Basics for Beginners: Step-by-Step Guide with Examples**
@@ -331,7 +331,7 @@ git push -u origin main
  
     - [.Net 9 Web API Repo](https://github.com/learnsmartcoding/smartcertify-api-clean-architecture-dotnet9)
     - [Angular 19 Repo](https://github.com/learnsmartcoding/smartcertify-ui-angular19)
-    - [App Demo](https://smartcertify-web.azurewebsites.net/home)
+    - [App Demo]()
     - [YT Video](https://youtu.be/lAVUy2U9QgY)
 
 - ### **Mastering API Calls In Angular With A Reusable Service**
