@@ -10,8 +10,9 @@ import { ViewResultComponent } from './components/user-test/view-result/view-res
 import { VideoListComponent } from './components/video-list/video-list.component';
 import { CreateQuestionChoiceComponent } from './components/admin/create-question-choice/create-question-choice.component';
 import { QuestionsListComponent } from './components/admin/questions-list/questions-list.component';
-import { canActivateGuard } from './guards/login.guard';
-import { canActivateAdminGuard } from './guards/admin.guard';
+// Remove these imports since we're not using guards
+// import { canActivateGuard } from './guards/login.guard';
+// import { canActivateAdminGuard } from './guards/admin.guard';
 import { UpdateProfileComponent } from './components/users/update-profile/update-profile.component';
 
 export const routes: Routes = [
@@ -40,40 +41,44 @@ export const routes: Routes = [
   {
     path: 'exam/start',
     component: AgreementPageComponent,
-    canActivate: [canActivateGuard],
+    // canActivate: [canActivateGuard], // Removed
   },
   {
     path: 'user-exams',
     component: UserExamsComponent,
-    canActivate: [canActivateGuard],
+    // canActivate: [canActivateGuard], // Removed
   },
   { path: 'user/update-profile', component: UpdateProfileComponent },
-  { path: 'exam', component: ExamComponent, canActivate: [canActivateGuard] },
+  { 
+    path: 'exam', 
+    component: ExamComponent, 
+    // canActivate: [canActivateGuard] // Removed
+  },
   {
     path: 'exam/feedback',
     component: GetExamFeedbackAndSubmitComponent,
-    canActivate: [canActivateGuard],
+    // canActivate: [canActivateGuard], // Removed
   },
   {
     path: 'exam/view-result',
     component: ViewResultComponent,
-    canActivate: [canActivateGuard],
+    // canActivate: [canActivateGuard], // Removed
   },
   { path: 'videos', component: VideoListComponent },
   {
     path: 'admin/question/list',
     component: QuestionsListComponent,
-    canActivate: [canActivateAdminGuard],
+    // canActivate: [canActivateAdminGuard], // Removed
   },
   {
     path: 'admin/question/create',
     component: CreateQuestionChoiceComponent,
-    canActivate: [canActivateAdminGuard],
+    // canActivate: [canActivateAdminGuard], // Removed
   },
   {
     path: 'admin/question/edit/:id',
     component: CreateQuestionChoiceComponent,
-    canActivate: [canActivateAdminGuard],
+    // canActivate: [canActivateAdminGuard], // Removed
   },
   { path: '**', redirectTo: 'home' },
 ];
